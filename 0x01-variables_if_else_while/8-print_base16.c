@@ -1,30 +1,32 @@
-
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+
 /**
- * main - main block
- * Description: prints all single digit numbers of base 10
- * starting from 0, followed by a new line.
- * Return: 0
- */
+ * main - Prints base 16
+ * @void: Empty parameter list for main.
+ *
+ * Description: Prints all hexadecimals
+ *
+ * Return: 0 for success
+*/
 int main(void)
 {
-	char d = '0';
+	int num = 48;
 
-	while (d <= '9')
+	while (num <= 57)
 	{
-		putchar(d);
-		d++;
+		putchar(num);
+		num++;
 	}
 
-	char c = 'a';
+	num = 97;
 
-	while (c <= 'f')
+	while (num <= 102)
 	{
-		putchar(c);
-		c++;
+		putchar(num);
+		num++;
 	}
-
 	putchar('\n');
 	return (0);
 }
