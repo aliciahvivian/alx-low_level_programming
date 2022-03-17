@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - check the code for multiples of three print fizz or print buzz for five and fizzbuzz for multiples of both
+ * main - check the code
 *
  * Return: void.
  */
