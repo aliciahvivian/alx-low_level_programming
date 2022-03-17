@@ -1,7 +1,6 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
- * main -fizz if multiple of 3,buzz if multipleof 5,fizzbuzz for multiple of both 3 and 5
+ * main - check the code for multiples of three print fizz or print buzz for five and fizzbuzz for multiples of both
 *
  * Return: void.
  */
