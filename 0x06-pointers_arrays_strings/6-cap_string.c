@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * cap_string - capitalizes all words of a string
+ * cap_string - capitalizes all words of a string Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }
  * @s: input string.
  * Return: the pointer to dest.
  */
