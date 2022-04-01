@@ -1,1 +1,1 @@
-alx-low_level programming debugging
+C - Static libraries
