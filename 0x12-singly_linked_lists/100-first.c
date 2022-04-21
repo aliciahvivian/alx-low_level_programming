@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 void myStartupFun(void)__attribute__ ((constructor));
 
 /**
